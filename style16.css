@@ -1,0 +1,46 @@
+.container1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+.prepare1{
+    width: 100%;
+    height: 20vh;
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.but{
+    color: black;
+
+}
+.color1{
+    color:red;
+}
+.middle{
+    text-align: center;
+}
+
+.wrong{
+    margin-left: 95%;
+
+    
+
+   
+}
+.color4{
+    color:black ;
+}
+.label{
+    text-align: center;
+}
+.label1{
+    background-color: transparent;
+    background-size: auto;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: gray;
+}
+

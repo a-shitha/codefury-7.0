@@ -1,0 +1,25 @@
+.container2{
+    display: flex;
+  justify-content:center;
+  align-items:center;
+
+}
+.prepare2{
+    width: 60%;
+    height: 70vh;
+   
+    display: block;
+    margin-left: auto;
+    margin-right:auto ;
+    
+}
+.wrong{
+  margin-left: 95%;
+  
+
+ 
+}
+.color4{
+  color:black ;
+}
+

@@ -1,0 +1,18 @@
+.register{
+    color:black;
+    font-size:medium;
+    font-weight: bolder;
+    margin-left: 400px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 20%;
+
+
+
+
+
+}
+.fcc-btn {
+    background-color: #199319;
+    color: white;
+  }

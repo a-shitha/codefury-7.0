@@ -1,0 +1,170 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    margin: 0.5em 0;
+}
+
+p {
+    margin: 0.5em 0 1.5em;
+}
+
+/* Header Styles */
+header {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+header nav ul li a:hover {
+    background-color: white;
+    color: #007BFF;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    margin: 20px 10%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #007BFF;
+}
+
+section h3 {
+    margin-top: 1em;
+    color: #0056b3;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Input Styles */
+input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer nav ul li {
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    section {
+        margin: 20px 5%;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    footer nav ul {
+        flex-direction: column;
+    }
+}
+
+/* Specific styles for warning alerts */
+.alert.warning {
+    background-color: #ff6f61; /* Bright red/orange */
+    border: 2px solid #e54b4b; /* Darker red for border */
+}
+
+/* Specific styles for advisory alerts */
+.alert.advisory {
+    background-color: #4caf50; /* Bright green */
+    border: 2px solid #388e3c; /* Darker green for border */
+}
+
+/* Additional styles to make the alert more noticeable */
+.alert {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 1.2em;
+}
+.but{
+    color:black;
+}
+.black{
+    color: black;
+}
+
